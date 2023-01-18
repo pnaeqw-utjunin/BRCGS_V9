@@ -229,6 +229,38 @@ color: white;
     
 }
 
+/* Estilos comunes para todas las pantallas */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a:hover {
+  color: #ccc;
+}
+
 
 /* Estilos específicos para pantallas anchas (desde 900px) */
 @media screen and (min-width: 900px) {
